@@ -1,5 +1,9 @@
-def add_function(num1, num2)
-	num1 + num2
-#	sum = add_function
-#	return sum
+def add_function(*num)
+	counter = 0
+	num.each do |number|
+	counter = counter + number
+	end
+	counter
 end
+
+
