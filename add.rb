@@ -1,7 +1,5 @@
-def add_function(a, b)
-	a = 1
-	b = 1
-	return a + b
-	sum = add_function
-	return sum
+def add_function(num1, num2)
+	num1 + num2
+#	sum = add_function
+#	return sum
 end
