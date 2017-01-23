@@ -17,4 +17,14 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(3, subtract_function(10, 7))
 		puts subtract_function(10, 7)
 	end
+#Test 4
+	def test_negative_10_minus_20_returns_negative_30
+		assert_equal(-30, subtract_function(-10, 20))
+		puts subtract_function(-10, 20)
+	end
+#Test 5
+	def test_negative_100_minus_negative_100_returns_zero
+		assert_equal(0, subtract_function(-100, -100))
+		puts subtract_function(-100, -100)
+	end
 end
